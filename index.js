@@ -28,3 +28,7 @@ function appendKitten(element) {
 function destructivelyRemoveFirstKitten(element) {
   kittens.shift(element)
 }
+
+function removeLastKitten(element) {
+  kittens.pop(element)
+}
