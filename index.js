@@ -18,5 +18,5 @@ function destructivelyRemoveLastKitten(element) {
 }
 
 function prependKitten(element) {
-  
+  return[element, ...kittens]
 } 
