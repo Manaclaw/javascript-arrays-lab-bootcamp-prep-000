@@ -11,3 +11,12 @@ function destructivelyPrependKitten(element) {
   kittens.unshift(element)
   return kittens
 }
+
+function destructivelyRemoveLastKitten(element) {
+  kittens.pop(element)
+  return kittens
+}
+
+function prependKitten(element) {
+  
+} 
