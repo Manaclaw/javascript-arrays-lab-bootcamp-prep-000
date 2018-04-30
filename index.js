@@ -24,3 +24,7 @@ function prependKitten(element) {
 function appendKitten(element) {
   return[...kittens, element]
 }
+
+function destructivelyRemoveFirstKitten(element) {
+  kittens.shift(element)
+}
