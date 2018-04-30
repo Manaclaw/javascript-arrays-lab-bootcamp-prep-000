@@ -33,4 +33,4 @@ function removeLastKitten(element) {
   kittens.pop(element)
 }
 
-function remove
+function removeFirstKitten(element)
