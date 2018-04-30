@@ -32,3 +32,5 @@ function destructivelyRemoveFirstKitten(element) {
 function removeLastKitten(element) {
   kittens.pop(element)
 }
+
+function remove
