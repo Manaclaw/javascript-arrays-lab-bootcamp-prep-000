@@ -29,5 +29,8 @@ function destructivelyRemoveFirstKitten(element) {
   kittens.shift(element)
 }
 
-function removeLastKitten(element) {
+function removeLastKitten() {
+  kittens.slice(0, 2)
+}
+
   
